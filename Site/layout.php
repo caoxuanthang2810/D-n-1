@@ -1,5 +1,5 @@
 <?php
-    session_start();
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$TITLE_NAME?></title>
+    <title><?= $TITLE_NAME ?></title>
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="../dist/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,31 +27,31 @@
                     <li class="logo__item">
                         <a class="flex" href="https://goo.gl/maps/dfQDF4H3aH7vK4ue9">
                             <img src="https://cdn.pnj.io/images/image-update/layout/icon-stores-new.svg" alt="">
-                                <span class="logo__text">Cửa hàng</span>
+                            <span class="text-[24px] ml-2">Cửa hàng</span>
                         </a>
                     </li>
 
                     <li class="logo__item">
                         <a class="flex" href="tel:+1800545457">
                             <img src="https://cdn.pnj.io/images/image-update/layout/icon-hotline-new.svg" alt="">
-                                <span class="logo__text-hotline">1800 54 54 57</span>
+                            <span class="text-[24px] ml-2">1800 54 54 57</span>
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div>
-                <img src="" alt="">
+                <img class="h-[150px]" src="../Asset/Image/logo/—Pngtree—golden leaf camera photography logo_8535019 4.png" alt="">
             </div>
 
             <div class="flex gap-8 items-center">
 
                 <div>
                     <ul class="flex gap-5">
-                        <li class="border border-[#000] p-3">
+                        <li class="border border-[#EFA969] rounded-[10px] p-3 font-bold">
                             <a href="./index.php?dang-nhap">Đăng nhập</a>
                         </li>
-                        <li class="border border-[#000] p-3">
+                        <li class="bg-[#EFA969] rounded-[10px] font-bold p-3">
                             <a href="./index.php?dang-ky">Đăng ký</a>
                         </li>
                     </ul>
@@ -60,9 +60,10 @@
                 <div>
                     <ul>
                         <li>
-                            <a href="./index.php?gio-hang" class="flex">
-                                <img src="https://cdn.pnj.io/images/image-update/layout/icon-cart-new.svg" alt="">
-                                    <span class="ml-2">Giỏ hàng</span>
+                            <a href="./index.php?gio-hang" class="flex items-center">
+                                <!-- <img src="https://cdn.pnj.io/images/image-update/layout/icon-cart-new.svg" alt=""> -->
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="ml-2">Giỏ hàng</span>
                             </a>
                         </li>
                     </ul>
@@ -85,35 +86,41 @@
                         <li class="hover:text-black hover:underline"><a href="./index.php?danh-muc">Danh mục sản phẩm</a></li>
                     </ul>
                 </div>
-                <div class="form__search max-w-[35%] py-2 bg-[#ededed] rounded-[35px] border-transparent outline-transparent">
+                <div class="form__search max-w-[35%] py-2">
                     <form action="" class="flex">
                         <input type="text" placeholder="Tìm Kiếm Nhanh" class="bg-[#ededed] border-[#ededed] text-[18px] rounded-[35px] pl-2 outline-transparent" required>
-                        <button class="form__search_btn text-[16px] pr-2">
+                        <button class="form__search_btn text-[24px] pr-2 ml-3">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
-                </form>
-            </div>
+                    </form>
+                </div>
             </div>
 
-            
+
         </div>
     </div>
 
     <!-- Content -->
 
     <main>
-        <?php include_once $VIEW_NAME?>
+        <?php include_once $VIEW_NAME ?>
     </main>
 
     <!-- Footer -->
     <hr>
     <div class="container mx-auto py-4 border-2px-white md:block hidden">
         <div class="flex justify-between">
-            <div>
-                <img src="" alt="">
+            <div class="w-[200px] h-[200px]">
+                <img src="../Asset/Image/logo/—Pngtree—golden leaf camera photography logo_8535019 4.png" class="w-full h-full" alt="">
             </div>
-            <div>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam dicta ipsam voluptatibus hic quibusdam sapiente adipisci doloribus? Minus eius tempora explicabo tenetur excepturi minima quidem deserunt architecto, ex nulla!</span>
+            <div class="text-right font-medium">
+                <span>Copyright © 2015 CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÂN PHỐI BÌNH MINH <br>
+                    GPDKKD số 0310697334, cấp ngày 17/03/2011 tại Sở kế hoạch và Đầu tư TP.Hồ Chí Minh <br>
+                    info@binhminhdigital.com <br>
+                    Trụ sở chính: 116 Nguyễn Văn Thủ, phường Đa Kao, quận 1, TP.Hồ Chí Minh, Việt Nam <br>
+                    Show room:Toà Sarica B.002, Đường D9, Khu Đô Thị Sa La, Phường An Lợi Đông, TP. Thủ Đức (Quận 2 cũ) <br>
+                    Hồ Chí Minh, Việt Nam, 700000 <br>
+                    Tel: 028.6296.6620</span>
             </div>
         </div>
     </div>

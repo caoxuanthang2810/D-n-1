@@ -11,14 +11,22 @@
 
                 <div class="mt-[48px]">
                     <div class="my-3 font-bold">Email</div>
+
                     <input type="text" class="border border-[#EFA969] w-[400px] py-4 pl-4" placeholder="John.snow@gmail.com">
                     <span id="msg-error-email" class="block mt-2 ml-2"></span>
+
+                    <input type="text" id="email" class="border border-[#EFA969] w-[400px] py-4 pl-4 rounded-[5px]" placeholder="John.snow@gmail.com">
+
                 </div>
 
                 <div class="">
                     <div class="my-3 font-bold">Password</div>
+
                     <input type="text" class="border border-[#EFA969] w-[400px] py-4 pl-4" placeholder="*********">
                     <span id="msg-erorr-pass"  class="block mt-2 ml-2"></span>
+
+                    <input type="text" id="password" class="border border-[#EFA969] w-[400px] py-4 pl-4 rounded-[5px]" placeholder="*********">
+
                 </div>
 
                 <div class="w-[400px] mt-[30px] font-bold text-white p-4 flex bg-[#EFA969] justify-center items-center">

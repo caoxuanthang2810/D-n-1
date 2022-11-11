@@ -17,7 +17,7 @@ session_start();
     <script src="../Asset/Javascript/main.js"></script>
 </head>
 
-<body>
+<body >
 
     <!-- Header -->
     <div class="">

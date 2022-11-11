@@ -21,7 +21,7 @@ session_start();
 
     <!-- Header -->
     <div class="">
-        <div class="container mx-auto flex justify-between items-center">
+        <div class="container mx-auto flex justify-between items-center border-b-2">
             <div class="">
                 <ul class="flex gap-6 text-[13px] items-center">
                     <li class="logo__item">
@@ -71,24 +71,24 @@ session_start();
             </div>
         </div>
 
-        <hr>
+        
     </div>
 
     <!-- Navbar -->
 
-    <div class="mt-2">
+    <div class="mt-2 ">
         <div class="container mx-auto">
-            <div class="py-[5px] flex items-center justify-between">
+            <div class="py-[5px] flex items-center justify-between border-b-2 border-slate-500 h-[80px]">
                 <div>
                     <ul class="flex gap-5">
-                        <li class="hover:text-black hover:underline"><a href="./index.php">Trang chủ</a></li>
-                        <li class="hover:text-black hover:underline"><a href="./index.php?gioi-thieu">Giới thiệu</a></li>
-                        <li class="hover:text-black hover:underline"><a href="./index.php?danh-muc">Danh mục sản phẩm</a></li>
+                        <li class="hover:text-black hover:underline text-lg "><a href="./index.php">Trang chủ</a></li>
+                        <li class="hover:text-black hover:underline text-lg"><a href="./index.php?gioi-thieu">Giới thiệu</a></li>
+                        <li class="hover:text-black hover:underline text-lg"><a href="./index.php?danh-muc">Danh mục sản phẩm</a></li>
                     </ul>
                 </div>
-                <div class="form__search max-w-[35%] py-2">
-                    <form action="" class="flex">
-                        <input type="text" placeholder="Tìm Kiếm Nhanh" class="bg-[#ededed] border-[#ededed] text-[18px] rounded-[35px] pl-2 outline-transparent" required>
+                <div class="form__search max-w-[35%] py-2 ">
+                    <form action="" class="flex ">
+                        <input type="text" placeholder="Tìm Kiếm Nhanh" class=" bg-[#ededed] border-[#ededed] text-[18px] rounded-[35px] pl-2 outline-transparent" required>
                         <button class="form__search_btn text-[24px] pr-2 ml-3">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
@@ -107,8 +107,8 @@ session_start();
     </main>
 
     <!-- Footer -->
-    <hr>
-    <div class="container mx-auto py-4 border-2px-white md:block hidden">
+    
+    <div class="container mx-auto py-4 border-2px-white md:block hidden border-t-2 border-slate-500">
         <div class="flex justify-between">
             <div class="w-[200px] h-[200px]">
                 <img src="../Asset/Image/logo/—Pngtree—golden leaf camera photography logo_8535019 4.png" class="w-full h-full" alt="">

@@ -16,6 +16,9 @@
     }else if(isset($_GET["gioi-thieu"])){
         $VIEW_NAME = "gioi-thieu.php";
         $TITLE_NAME = "Trang giới thiệu";
+    }elseif(isset($_GET['danh-muc'])){
+        $VIEW_NAME="danhmuc.php";
+        $TITLE_NAME="Trang danh muc";
     }
     else{
         $VIEW_NAME = "trang-chu.php";

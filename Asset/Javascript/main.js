@@ -3,12 +3,16 @@ function checkFormLogin(){
     var password = document.getElementsByName("password");
     var passwordcheck = document.getElementsByName("passwordcheck");
 
+    var msgErrorEmail = document.getElementById("msg-error-email");
+    var msgErrorPass = document.getElementById("msg-error-pass");
+
     //onclick="return checkFormLogin()"
 
     if(userName.value != ""){
         if(userName.value.length < 8){
             alert("Vui lòng nhập tài khoản >= 8 kí tự");
             userName.focus();
+            document.getElementById("msg-error-email").innerHTML = "<img src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập tên đăng nhập";
             return false;
         }
     }else{

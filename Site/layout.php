@@ -20,8 +20,7 @@ session_start();
 <body >
 
     <!-- Header -->
-    <div class="">
-        <div class="container mx-auto flex justify-between items-center border-b-2">
+
             <div class="">
                 <ul class="flex gap-6 text-[13px] items-center">
                     <li class="logo__item">

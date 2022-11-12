@@ -33,7 +33,7 @@
                         <div class="w-[150px] h-[55px] bg-[#EFA969] text-center mt-4 rounded ">
                             <a href="" class="text-2xl text-[#FFFFFF] leading-[50px] font-bold ">Mua Ngay</a>
                         </div>
-                        <div class="w-[150px] h-[55px] bg-[#FFFFF] text-center mt-4  w-1/5 ml-10 rounded">
+                        <div class="w-[150px] h-[55px] bg-[#FFFFF] text-center mt-4  w-1/5 ml-10 rounded border-2 border-[#EFA969]">
                             <a href="" class="text-2xl text-[#EFA969] leading-[50px] font-bold  ">Giỏ Hàng</a>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class=" text-center my-4">
-                <input type="text" name="" id="" class="w-[700px] h-[40px] rounded-xl border-2 border-gray-400" placeholder="Nhập bình luận...">
+                <input type="text" name="" id="" class="w-[700px] h-[40px] rounded-xl border-2 border-gray-400 pl-2" placeholder="Nhập bình luận...">
                 <button class="w-[100px] h-[40px] bg-[#EFA969] rounded-3xl text-xl ml-6   text-[#FFFFFF] font-medium " required>Gửi</button>
             </div>
         </div>

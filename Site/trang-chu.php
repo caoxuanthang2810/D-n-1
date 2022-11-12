@@ -38,7 +38,7 @@
                     <span class="text-red-500 font-bold ">11,090,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969]  rounded-xl">
@@ -52,7 +52,7 @@
                     <span class="text-red-500 font-bold">21,290,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -66,7 +66,7 @@
                     <span class="text-red-500 font-bold">13,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -80,7 +80,7 @@
                     <span class="text-red-500 font-bold">64,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
                 
             </div>
@@ -95,7 +95,7 @@
                     <span class="text-red-500 font-bold ">11,090,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969]  rounded-xl">
@@ -109,7 +109,7 @@
                     <span class="text-red-500 font-bold">21,290,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -123,7 +123,7 @@
                     <span class="text-red-500 font-bold">13,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -137,7 +137,7 @@
                     <span class="text-red-500 font-bold">64,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
                 
             </div>
@@ -152,7 +152,7 @@
                     <span class="text-red-500 font-bold ">11,090,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969]  rounded-xl">
@@ -166,7 +166,7 @@
                     <span class="text-red-500 font-bold">21,290,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -180,7 +180,7 @@
                     <span class="text-red-500 font-bold">13,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -194,7 +194,7 @@
                     <span class="text-red-500 font-bold">64,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
                 
             </div>
@@ -209,7 +209,7 @@
                     <span class="text-red-500 font-bold ">11,090,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969]  rounded-xl">
@@ -223,7 +223,7 @@
                     <span class="text-red-500 font-bold">21,290,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-4">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -237,7 +237,7 @@
                     <span class="text-red-500 font-bold">13,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
             </div>
             <div class="border border-[#EFA969] rounded-xl ">
@@ -251,7 +251,7 @@
                     <span class="text-red-500 font-bold">64,990,000 VNĐ</span>
                 </div>
                 <div class="mt-3 mb-3">
-                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white">Mua Hàng</button>
+                    <button class="border border-[#EFA969] rounded-xl font-bold w-[100px] text-[18px] hover:bg-[#EFA969]  hover:text-white p-1">Mua Hàng</button>
                 </div>
                 
             </div>

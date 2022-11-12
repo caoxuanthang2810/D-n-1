@@ -20,7 +20,7 @@ session_start();
 <body>
 
     <!-- Header -->
-    <div class="">
+    <div class=""><hr>
         <div class="container mx-auto flex justify-between items-center">
             <div class="">
                 <ul class="flex gap-6 text-[13px] items-center">

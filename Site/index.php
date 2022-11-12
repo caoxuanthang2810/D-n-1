@@ -19,6 +19,12 @@
     }elseif(isset($_GET['chi-tiet-sp'])){
         $VIEW_NAME = "chi-tiet-sp.php";
         $TITLE_NAME = "Trang chi tiết sản phẩm";
+    }elseif(isset($_GET['thong-tin-ca-nhan-input'])){
+        $VIEW_NAME = "thong-tin-ca-nhan-input.php";
+        $TITLE_NAME = "Trang thông tin cá nhân";
+    }elseif(isset($_GET['thong-tin-ca-nhan-output'])){
+        $VIEW_NAME = "thong-tin-ca-nhan-output.php";
+        $TITLE_NAME = "Trang thông tin cá nhân";
     }
     else{
         $VIEW_NAME = "trang-chu.php";

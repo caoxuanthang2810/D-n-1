@@ -1,5 +1,6 @@
 function checkFormRegister(){
     var CheckEmail = /^\w+@[a-zA-Z]{3,}\.com$/i;
+    var CheckPhone = /^\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
     
     var email = document.getElementById("email");
     var userName = document.getElementById("userName");
@@ -138,7 +139,6 @@ function checkFormInfor(){
             fullname.focus();
             return false;
         }else{
-            alert("fwdbiqwdbwqjnkdwq")
             msgErrorFullname.innerHTML = "";
             fullname.focus();
         }
@@ -149,17 +149,16 @@ function checkFormInfor(){
     }
 
     if(phone.value != ""){
-        if(phone.value.length < 3){
-            msgErrorPhone.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập họ và tên lớn hơn 3 kí tự";
+        if(!CheckPhone.test(phone.value)){
+            msgErrorPhone.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập dạng đúng số điện thoại";
             phone.focus();
             return false;
         }else{
-            alert("fwdbiqwdbwqjnkdwq")
             msgErrorPhone.innerHTML = "";
             phone.focus();
         }
     }else{
-        msgErrorPhone.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập họ và tên";
+        msgErrorPhone.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập só điện thoại";
         phone.focus();
         return false;
     }

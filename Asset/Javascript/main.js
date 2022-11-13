@@ -1,6 +1,5 @@
 function checkFormRegister(){
     var CheckEmail = /^\w+@[a-zA-Z]{3,}\.com$/i;
-    var CheckPhone = /^\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
     
     var email = document.getElementById("email");
     var userName = document.getElementById("userName");
@@ -122,6 +121,7 @@ function checkFormLogin(){
 
 function checkFormInfor(){
     var CheckEmail = /^\w+@[a-zA-Z]{3,}\.com$/i;
+    var CheckPhone = /^\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
     
     var fullname = document.getElementById("fullname");
     var phone = document.getElementById("phone");

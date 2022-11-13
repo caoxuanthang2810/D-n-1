@@ -162,21 +162,6 @@ function checkFormInfor(){
         phone.focus();
         return false;
     }
-
-    if(address.value != ""){
-        if(address.value.length < 3){
-            msgErrorAddress.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập địa chỉ lớn hơn 3 kí tự";
-            address.focus();
-            return false;
-        }else{
-            msgErrorAddress.innerHTML = "";
-            address.focus();
-        }
-    }else{
-        msgErrorPass.innerHTML = "<img class='h-[10px] w-[10px] mr-1' src='../Asset/Image/logo/1200px-Nuvola_apps_error.svg.png'> Nhập địa chỉ";
-        address.focus();
-        return false;
-    }
     
     if(email.value != ""){
         if(!CheckEmail.test(email.value)){

@@ -11,6 +11,10 @@
         $VIEW_NAME="made_in.php";
         $TITLE_NAME="Trang xuất sứ";
     }
+    elseif(isset($_GET["role"])){
+        $VIEW_NAME="role.php";
+        $TITLE_NAME="Trang chức vụ";
+    }
     else{
         $VIEW_NAME = "user.php";
         $TITLE_NAME = "Trang chủ";

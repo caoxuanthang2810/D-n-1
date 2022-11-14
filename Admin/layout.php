@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="bg-gray-300 ">
+    <div class="bg-gray-300  h-[900px]">
         <div class="h-[50px] flex justify-between bg-[#F29D38] leading-[50px]">
             <div class="ml-[250px]">
                 <a href="">
@@ -31,7 +31,7 @@
             </div>
 
         </div>
-        <div class="flex">
+        <div class="flex ">
             <div class="w-[250px]  bg-white">
                 <div class="border-b-2 border-gray-300">
                     <img src="../Asset//Image//logo//—Pngtree—golden leaf camera photography logo_8535019 4.png" alt="" class="w-[200px] h-[140px]">
@@ -45,17 +45,11 @@
                     <p class="h-[30px] mt-5"><a href="" class="text-lg ml-4 text-medium text-black hover:text-[#EFA969]">Bảo Hành</a></p>
                     <p class="h-[30px] mt-5"><a href="" class="text-lg ml-4 text-medium text-black hover:text-[#EFA969]">Chức Vụ</a></p>
                     <p class="h-[30px] mt-5"><a href="" class="text-lg ml-4 text-medium text-black hover:text-[#EFA969]">Xuất Xứ</a></p>
-                    
-                   
-                    
-                    
-                   
-                    
-                    
+                          
                     
                 </div>
             </div>
-            <div class="">
+            <div class="w-full">
                 <main>
                     <?php include_once $VIEW_NAME ?>
                 </main>

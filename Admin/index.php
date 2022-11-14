@@ -15,6 +15,10 @@
         $VIEW_NAME="role.php";
         $TITLE_NAME="Trang chức vụ";
     }
+    elseif(isset($_GET["insurance"])){
+        $VIEW_NAME="insurance.php";
+        $TITLE_NAME="Trang Bảo hành";
+    }
     else{
         $VIEW_NAME = "user.php";
         $TITLE_NAME = "Trang chủ";

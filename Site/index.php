@@ -25,6 +25,9 @@
     }elseif(isset($_GET['thong-tin-ca-nhan-output'])){
         $VIEW_NAME = "thong-tin-ca-nhan-output.php";
         $TITLE_NAME = "Trang thông tin cá nhân";
+    }elseif(isset($_GET['thanh-toan'])){
+        $VIEW_NAME = "thanh-toan.php";
+        $TITLE_NAME = "Trang thanh toán";
     }
     else{
         $VIEW_NAME = "trang-chu.php";

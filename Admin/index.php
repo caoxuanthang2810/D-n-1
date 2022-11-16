@@ -15,9 +15,10 @@
         $VIEW_NAME="role.php";
         $TITLE_NAME="Trang chức vụ";
     }
+
     else{
         $VIEW_NAME = "user.php";
-        $TITLE_NAME = "Trang chủ";
+        $TITLE_NAME = "Trang quản lý tài khoản";
     }
 
     include_once "./layout.php";

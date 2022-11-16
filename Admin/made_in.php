@@ -19,7 +19,7 @@
                     <tr class="text-center h-[55px]">
                         <th class="w-[100px]">ID</th>
                         
-                        <th class="w-[1250px]">Xuất Xứ</th>
+                        <th class="w-[1000px]">Xuất Xứ</th>
                         
                         <th class="w-[100px]">Hành động</th>
 
